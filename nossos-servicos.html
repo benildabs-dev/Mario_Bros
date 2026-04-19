@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Nossos Serviços</title>
+    <link rel="icon" href="./img/cano.png" type="image/png">
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+    <div class="nossos-servicos">
+        <a href="index.html">
+            <img src="./img/logo.png" alt="logo mario">
+        </a>
+        <h1>
+            Nossos Serviços
+            <img src="./img/cano.png" style="width:60px; height:24px; vertical-align: middle; margin-right: 8px;">
+        </h1>
+        <div class="caixa-video">
+            <video src="./img/video.mp4" autoplay muted loop></video>
+            <div class="mascara"></div>
+        </div>
+
+        <a href="https://w.app/cezxb9" class="link-whatsapp" target="_blank">
+            <img src="./img/whatsapp.png" alt="link para o whatsapp">
+        </a>
+
+        <br>
+
+        <ul>
+            <li>Instalação hidráulica: Montagem de redes de água fria, quente, esgoto e gás em construções novas.</li>
+            <li>Reparos e manutenção: Caça vazamentos, troca de registros, conserto de válvulas de descarga,
+                desentupimento de tubulações e limpeza de caixas d'água.</li>
+            <li>Leitura de projetos: Interpretação de plantas hidráulicas para definir o traçado e a dimensão dos canos.
+            </li>
+            <li>Utilização de materiais: Manuseio de tubos e conexões de diversos materiais, como PVC, cobre e PEX.</li>
+            <li>Testes: Verificação da pressão da água e vedação das instalações.</li>
+
+        </ul>
+
+        <button onclick="mostrarForm()" class="button">Entre em contato</button>
+        <form class="formulario-fale-conosco" action="https://formcarry.com/s/hBpoPg0wyeY" method="POST"
+            enctype="multipart/form-data">
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone">
+            <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+            <button type="submit">Pedir Orçamento</button>
+        </form>
+
+        <script src="scripts.js"></script>
+
+</body>
+
+
+</html>
