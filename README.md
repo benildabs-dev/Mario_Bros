@@ -10,11 +10,11 @@
   </style>
 </head>
 <body>
-  <h1>Super Mario Bross <img width="359" height="479" alt="image" src="https://github.com/user-attachments/assets/9ef33f8c-1b39-4d3e-b8b5-983ff9f41ab9" />
+  <h1>Super Mario Bross <img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/9ef33f8c-1b39-4d3e-b8b5-983ff9f41ab9" />
 </h1>
   <br><br>
   <h2>Esse foi um projeto que aprendi no Dev Club usando html e css.</h2>
   <h3>Aqui usamos a tag header, main e section, para fornecer um site clean e muito bem estruturado.</h3>
-  <img src="https://github.com/benildabs-dev/congratulation/blob/master/img/mockup_ola.png?raw=true" alt="Mockup Olá" />
+  <img src="https://github.com/benildabs-dev/Mario_Bros/blob/main/img/mockup.png?raw=true" alt="Mockup Mario" />
 </body>
 </html>
